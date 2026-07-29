@@ -1,10 +1,10 @@
-// {
-  //   "title": "Quizy — a Full-Stack Online Quiz Platform.",
-  //   "category": "Full-Stack Web App",
-  //   "description": "MERN-based featuring role-based authentication, timed quizzes with auto-save, real-time monitoring using Socket IO  and comprehensive performance tracking. Enabled teachers to create and manage quizzes while allowing students to take assessments and review detailed result history.",
-  //   "technologies": "React, Vite, Tailwind CSS, Firebase Auth, Node.js, Express.js, MongoDB, Mongoose, Axios",
-  //   "demoUrl": "https://quizy-frontend-nine.vercel.app/",
-  //   "repoUrl": "https://github.com/fahim-5/quizy-frontend.git",
-  //   "image": "/assets/projects/quizy.jpeg",
-  //   "featured": true
-  // },
+{
+    "title": "Quizy — a Full-Stack Online Quiz Platform.",
+    "category": "Full-Stack Web App",
+    "description": "MERN-based featuring role-based authentication, timed quizzes with auto-save, real-time monitoring using Socket IO  and comprehensive performance tracking. Enabled teachers to create and manage quizzes while allowing students to take assessments and review detailed result history.",
+    "technologies": "React, Vite, Tailwind CSS, Firebase Auth, Node.js, Express.js, MongoDB, Mongoose, Axios",
+    "demoUrl": "https://quizy-frontend-nine.vercel.app/",
+    "repoUrl": "https://github.com/fahim-5/quizy-frontend.git",
+    "image": "/assets/projects/quizy.jpeg",
+    "featured": true
+  }
