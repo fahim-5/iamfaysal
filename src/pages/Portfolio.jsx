@@ -14,7 +14,8 @@ import greenEarthImage from '../assets/projectImg/GreenEarth.jpeg';
 import customerSupportImage from '../assets/projectImg/CustomerService.jpg';
 // IMPORTANT: You need to import the TravelEase image, not GoRide
 // Since TravelEase uses GoRide's demo URL, you can use the same image if that's what you want
-import goRideImage from '../assets/projectImg/goride.jpg'; // This is actually for TravelEase project
+import goRideImage from '../assets/projectImg/goride.jpg';
+import quizy from '../assets/projectImg/quizy.jpeg';  // This is actually for TravelEase project
 
 // If you have a separate image for TravelEase, import it:
 // import travelEaseImage from '../assets/projectImg/travel-ease.jpg';
@@ -29,6 +30,7 @@ const Portfolio = () => {
 
   // Make sure the keys in fallbackImages match EXACTLY with project titles from projectsData.json
   const fallbackImages = {
+    'Quizy - Quiz Application': quizy,
     'TravelEase - Vehicle Booking Platform': goRideImage, // Fixed: Changed key to match JSON
     'WarmPaws - Pet Care in Winter': warmpaws,
     'AppSphere - Modern App Discovery Platform': appsphere,

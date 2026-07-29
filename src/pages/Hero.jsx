@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './Hero.module.css';
 import heroData from '../database/heroData.json';
-import profileImage from '../assets/Home.jpg';
+import profileImage from '../assets/Home.jpeg';
 // Assuming the filename in 'src/assets' is correct (Fahim Faysal.pdf)
 import cvFile from '../assets/Fahim Faysal.pdf';
 

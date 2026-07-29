@@ -1,7 +1,7 @@
 // About.jsx
 import React from 'react';
 import styles from './About.module.css';
-import profileImage from "../assets/about.jpg";
+import profileImage from "../assets/about.jpeg";
 // Import data from the clean JSON file (src/database/aboutData.json)
 import aboutData from "../database/aboutData.json"; 
 
