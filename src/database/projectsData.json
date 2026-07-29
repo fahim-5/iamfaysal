@@ -8,6 +8,16 @@
   "repoUrl": "https://github.com/fahim-5/GoRide-client-side.git",
   "image": "/assets/projects/goride.jpg",
   "featured": true
+},
+  {
+  "title": "TravelEase - Vehicle Booking Platform",
+  "category": "Full-Stack Web App",
+  "description": "A MERN stack vehicle booking platform connecting travelers with owners. Features Firebase auth, smart filtering, real-time availability, and responsive design.",
+  "technologies": "React, Vite, Tailwind CSS, Firebase Auth, Node.js, Express.js, MongoDB, Mongoose, Axios",
+  "demoUrl": "https://goride-by-fahim.netlify.app/",
+  "repoUrl": "https://github.com/fahim-5/GoRide-client-side.git",
+  "image": "/assets/projects/goride.jpg",
+  "featured": true
 }
 , 
 {
