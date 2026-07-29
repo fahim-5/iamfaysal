@@ -1,45 +1,35 @@
 [
- {
-  "title": "TravelEase - Vehicle Booking Platform",
-  "category": "Full-Stack Web App",
-  "description": "A MERN stack vehicle booking platform connecting travelers with owners. Features Firebase auth, smart filtering, real-time availability, and responsive design.",
-  "technologies": "React, Vite, Tailwind CSS, Firebase Auth, Node.js, Express.js, MongoDB, Mongoose, Axios",
-  "demoUrl": "https://goride-by-fahim.netlify.app/",
-  "repoUrl": "https://github.com/fahim-5/GoRide-client-side.git",
-  "image": "/assets/projects/goride.jpg",
-  "featured": true
-},
+  
   {
-  "title": "TravelEase - Vehicle Booking Platform",
-  "category": "Full-Stack Web App",
-  "description": "A MERN stack vehicle booking platform connecting travelers with owners. Features Firebase auth, smart filtering, real-time availability, and responsive design.",
-  "technologies": "React, Vite, Tailwind CSS, Firebase Auth, Node.js, Express.js, MongoDB, Mongoose, Axios",
-  "demoUrl": "https://goride-by-fahim.netlify.app/",
-  "repoUrl": "https://github.com/fahim-5/GoRide-client-side.git",
-  "image": "/assets/projects/goride.jpg",
-  "featured": true
-}
-, 
-{
-  "title": "WarmPaws - Pet Care in Winter",
-  "category": "Web App",
-  "description": "WarmPaws is a React-based platform for pet owners to manage winter pet care. Users can explore services, groomings, winter clothing, expert tips, and manage profiles with responsive design and dynamic UI.",
-  "technologies": "React, Tailwind CSS, Firebase, Framer Motion, AOS, React Router, LocalStorage",
-  "demoUrl": "https://warmpaws-by-fahim.netlify.app/",
-  "repoUrl": "https://github.com/fahim-5/warmpaws.git",
-  "image": "/assets/projects/warmpaws.jpg",
-  "featured": true
-},
+    "title": "TravelEase - Vehicle Booking Platform",
+    "category": "Full-Stack Web App",
+    "description": "A MERN stack vehicle booking platform connecting travelers with owners. Features Firebase auth, smart filtering, real-time availability, and responsive design.",
+    "technologies": "React, Vite, Tailwind CSS, Firebase Auth, Node.js, Express.js, MongoDB, Mongoose, Axios",
+    "demoUrl": "https://goride-by-fahim.netlify.app/",
+    "repoUrl": "https://github.com/fahim-5/GoRide-client-side.git",
+    "image": "/assets/projects/goride.jpg",
+    "featured": true
+  },
   {
-  "title": "AppSphere - Modern App Discovery Platform",
-  "category": "Web App",
+    "title": "WarmPaws - Pet Care in Winter",
+    "category": "Web App",
+    "description": "WarmPaws is a React-based platform for pet owners to manage winter pet care. Users can explore services, groomings, winter clothing, expert tips, and manage profiles with responsive design and dynamic UI.",
+    "technologies": "React, Tailwind CSS, Firebase, Framer Motion, AOS, React Router, LocalStorage",
+    "demoUrl": "https://warmpaws-by-fahim.netlify.app/",
+    "repoUrl": "https://github.com/fahim-5/warmpaws.git",
+    "image": "/assets/projects/warmpaws.jpg",
+    "featured": true
+  },
+  {
+    "title": "AppSphere - Modern App Discovery Platform",
+    "category": "Web App",
     "description": "AppSphere is a React-based app discovery platform for browsing, searching, and managing mobile apps. It features real-time search, app insights, ratings visualization, and installation management with a responsive, dynamic UI.",
-  "technologies": "React, JavaScript, CSS, Recharts, React Router, LocalStorage",
-  "demoUrl": "https://appsphere-by-fahim.netlify.app/",
-  "repoUrl": "https://github.com/fahim-5/AppSphere.git",
-  "image": "/assets/projects/appsphere.jpg",
-  "featured": true
-},
+    "technologies": "React, JavaScript, CSS, Recharts, React Router, LocalStorage",
+    "demoUrl": "https://appsphere-by-fahim.netlify.app/",
+    "repoUrl": "https://github.com/fahim-5/AppSphere.git",
+    "image": "/assets/projects/appsphere.jpg",
+    "featured": true
+  },
   {
     "title": "Customer Support System",
     "category": "Web App",
@@ -50,7 +40,7 @@
     "image": "/assets/projects/customer-support.jpg",
     "featured": true
   },
- 
+
   {
     "title": "Green Earth: Dynamic Tree Planting App",
     "category": "Web App",
@@ -61,8 +51,8 @@
     "image": "/assets/projects/green-earth.jpg",
     "featured": true
   },
- 
-   {
+
+  {
     "title": "Emergency Service",
     "category": "Web App",
     "description": "A dynamic web application demonstrating advanced DOM manipulation and asynchronous JavaScript capabilities. Features real-time data fetching, interactive UI components, and efficient state management without external frameworks. Serves as a technical showcase of pure JavaScript proficiency for modern web development roles.",
@@ -103,3 +93,5 @@
     "featured": true
   }
 ]
+
+
