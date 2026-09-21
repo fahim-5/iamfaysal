@@ -1,22 +1,22 @@
-import React, { useState, useEffect } from 'react';
-import styles from './Header.module.css';
+import React, { useState, useEffect } from "react";
+import styles from "./Header.module.css";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const personalInfo = {
-    name: 'Fahim',
+    name: "Fahim",
   };
 
   const menuItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Education', href: '#education' },
-    { name: 'Experience', href: '#experience' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Gallery', href: '#pictures' },
-    { name: 'References', href: '#references' }, 
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Education", href: "#education" },
+    { name: "Experience", href: "#experience" },
+    { name: "Skills", href: "#skills" },
+    { name: "Portfolio", href: "#portfolio" },
+    { name: "Gallery", href: "#pictures" },
+    { name: "References", href: "#references" },
   ];
 
   const toggleMobileMenu = () => {
@@ -29,15 +29,15 @@ const Header = () => {
 
   const scrollToHero = (e) => {
     e.preventDefault();
-    const heroSection = document.getElementById('home');
-    if (heroSection) heroSection.scrollIntoView({ behavior: 'smooth' });
+    const heroSection = document.getElementById("home");
+    if (heroSection) heroSection.scrollIntoView({ behavior: "smooth" });
     setIsMobileMenuOpen(false);
   };
 
   useEffect(() => {
-    document.body.style.overflow = isMobileMenuOpen ? 'hidden' : 'unset';
+    document.body.style.overflow = isMobileMenuOpen ? "hidden" : "unset";
     return () => {
-      document.body.style.overflow = 'unset';
+      document.body.style.overflow = "unset";
     };
   }, [isMobileMenuOpen]);
 
@@ -46,10 +46,10 @@ const Header = () => {
       <div className={styles.container}>
         <div className={styles.logo}>
           <h1>
-            <a 
-              href="#home" 
+            <a
+              href="#home"
               onClick={scrollToHero}
-              style={{ textDecoration: 'none', color: 'inherit' }}
+              style={{ textDecoration: "none", color: "inherit" }}
             >
               {personalInfo.name.toLowerCase()}
             </a>
@@ -61,10 +61,10 @@ const Header = () => {
           <ul>
             {menuItems.map((item) => (
               <li key={item.name}>
-                <a 
-                  href={item.href} 
+                <a
+                  href={item.href}
                   onClick={(e) => {
-                    if (item.href === '#home') scrollToHero(e);
+                    if (item.href === "#home") scrollToHero(e);
                     else handleNavLinkClick();
                   }}
                 >
@@ -76,9 +76,9 @@ const Header = () => {
         </nav>
 
         {/* Hamburger / Cross Icon */}
-        <div 
-          className={`${styles.hamburgerMenu} ${isMobileMenuOpen ? styles.open : ''}`}
-          onClick={toggleMobileMenu} 
+        <div
+          className={`${styles.hamburgerMenu} ${isMobileMenuOpen ? styles.open : ""}`}
+          onClick={toggleMobileMenu}
           aria-expanded={isMobileMenuOpen}
           aria-controls="mobile-menu-navigation"
           role="button"
@@ -91,18 +91,19 @@ const Header = () => {
       </div>
 
       {/* Mobile Navigation */}
-      <div 
-        className={`${styles.mobileNavOverlay} ${isMobileMenuOpen ? styles.open : ''}`}
+      <div
+        className={`${styles.mobileNavOverlay} ${isMobileMenuOpen ? styles.open : ""}`}
         id="mobile-menu-navigation"
       >
         <nav className={styles.mobileNav}>
           <ul>
             {menuItems.map((item) => (
               <li key={item.name}>
-                <a 
-                  href={item.href} 
+                <a
+                  className={styles.navLink}
+                  href={item.href}
                   onClick={(e) => {
-                    if (item.href === '#home') scrollToHero(e);
+                    if (item.href === "#home") scrollToHero(e);
                     else handleNavLinkClick();
                   }}
                 >
